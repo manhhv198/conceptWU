@@ -1,0 +1,283 @@
+MATCH: <img src="https://ox1.vietstock.vn/www/delivery/lg.php?bannerid=1375&campaignid=623&zoneid=274&loc=1&referer=https%3A%2F%2Ffinance.vietstock.vn%2F&cb=dac5fb604e" width="0" height="0" alt="" style="width: 0px; height: 0px;">
+MATCH: <img src="https://finance.vietstock.vn/content/images/nang-cap-tai-khoan.svg" height="18" data-src="/content/images/nang-cap-tai-khoan.svg" data-hover="/content/images/active-nctk.svg" alt="nang-cap-tai-khoan" class="nctk-image-container">
+MATCH: <img src="https://finance.vietstock.vn/content/images/thong-bao.svg" height="18" alt="thong-bao">
+MATCH: <img src="https://image.vietstock.vn/common/logoVSTF.svg?4" width="182" alt="finance.vietstock.vn">
+MATCH: <img width="50" height="20" alt="VNIndexTrend" src="https://chart.vietstock.vn/trending2/VNIndexTrend.png?ts=1765209606961">
+MATCH: <img width="50" height="20" alt="HNXINDEXTrend" src="https://chart.vietstock.vn/trending2/HNXINDEXTrend.png?ts=1765209606961">
+MATCH: <img width="50" height="20" alt="VS100Trend" src="https://chart.vietstock.vn/trending2/VS100Trend.png?ts=1765209606961">
+MATCH: <img width="50" height="20" alt="VN30F1MTrend" src="https://chart.vietstock.vn/trending2/VN30F1MTrend.png?ts=1765209606961">
+MATCH: <img width="50" height="20" alt="CLTrend" src="https://chart.vietstock.vn/trending2/CLTrend.png?ts=1765209606961">
+MATCH: <img width="50" height="20" alt="XAUUSDOTrend" src="https://chart.vietstock.vn/trending2/XAUUSDOTrend.png?ts=1765209606961">
+MATCH: <img id="imgHome" src="https://finance.vietstock.vn/content/images/home-active.svg" width="20" alt="Home" style="padding-bottom:5px">
+MATCH: <img title="New" src="https://finance.vietstock.vn/content/images/New_icon_animate.gif" style="width:25px">
+MATCH: <img title="New" src="https://finance.vietstock.vn/content/images/New_icon_animate.gif" style="width:25px">
+MATCH: <img title="New" src="https://finance.vietstock.vn/content/images/New_icon_animate.gif" style="width:23px">
+MATCH: <img title="New" src="https://finance.vietstock.vn/content/images/New_icon_animate.gif" style="width:23px">
+MATCH: <img src="https://finance.vietstock.vn/content/images/icons/icon-light-mode.svg">
+MATCH: <img id="imgMenuAll" src="https://finance.vietstock.vn/content/images/menu-all.svg" width="20" alt="menu-all" style="padding-bottom:5px">
+MATCH: <img id="img-search" src="https://finance.vietstock.vn/content/images/search.svg" width="18" title="Ctrl+ K" alt="menu-all" style="padding-bottom:2px">
+MATCH: <img title="New" src="https://finance.vietstock.vn/content/images/New_icon_animate.gif" style="width:20px">
+MATCH: <img title="New" src="https://finance.vietstock.vn/content/images/New_icon_animate.gif" style="width:20px">
+MATCH: <img title="New" src="https://finance.vietstock.vn/content/images/New_icon_animate.gif" style="width:20px">
+MATCH: <img src="https://finance.vietstock.vn/content/images/user-icon.svg">
+MATCH: <img src="https://finance.vietstock.vn/content/images/UK-Flag.svg">
+MATCH: <img src="https://finance.vietstock.vn/content/images/NCTKicon.svg">
+MATCH: <img src="https://ox1.vietstock.vn/www/delivery/lg.php?bannerid=1371&campaignid=623&zoneid=270&loc=1&referer=https%3A%2F%2Ffinance.vietstock.vn%2F&cb=e51436c11d" width="0" height="0" alt="" style="width: 0px; height: 0px;">
+MATCH: <img src="https://finance.vietstock.vn/content/images/iconGift01.svg" width="17" height="17" alt="iconGift">
+MATCH: <img src="https://finance.vietstock.vn/content/images/iconGift02.svg" width="17" height="17" alt="iconGift">
+MATCH: <img src="https://finance.vietstock.vn/content/images/iconGift03.svg" width="17" height="17" alt="iconGift">
+MATCH: <img src="https://finance.vietstock.vn/content/images/iconGift04.svg" width="17" height="17" alt="iconGift">
+MATCH: <img src="https://finance.vietstock.vn/content/images/iconGift01.svg" width="17" height="17" alt="iconGift">
+MATCH: <img src="https://finance.vietstock.vn/content/images/iconGift02.svg" width="17" height="17" alt="iconGift">
+MATCH: <img src="https://finance.vietstock.vn/content/images/iconGift03.svg" width="17" height="17" alt="iconGift">
+MATCH: <img src="https://finance.vietstock.vn/content/images/iconGift04.svg" width="17" height="17" alt="iconGift">
+MATCH: <img src="https://finance.vietstock.vn/content/images/iconGift01.svg" width="17" height="17" alt="iconGift">
+MATCH: <img src="https://image.vietstock.vn/common/logoVSTF.svg?4" width="182" class="mobile-logo--img" alt="finance.vietstock.vn">
+MATCH: <img class="imgMenuBar" src="https://finance.vietstock.vn/content/images/menubar.svg" width="35" alt="menubar">
+MATCH: <img src="https://finance.vietstock.vn/content/images/thong-bao.svg" width="18" alt="thong-bao" id="btnThongBao">
+MATCH: <img src="https://finance.vietstock.vn/content/images/nang-cap-tai-khoan.svg" width="20" data-src="/content/images/nang-cap-tai-khoan.svg" data-hover="/content/images/active-nctk.svg" alt="nang-cap-tai-khoan" class="nctk-image-container">
+MATCH: <img class="btSearchbymobile" src="https://finance.vietstock.vn/content/images/searchBlack.svg" width="18" alt="search">
+MATCH: <img id="home_icon" src="https://finance.vietstock.vn/content/images/home-active.svg" width="20" alt="home" style="margin-top:5px">
+MATCH: <img title="New" src="https://finance.vietstock.vn/content/images/New_icon_animate.gif" style="width:25px">
+MATCH: <img title="New" src="https://finance.vietstock.vn/content/images/New_icon_animate.gif" style="width:25px">
+MATCH: <img title="New" src="https://finance.vietstock.vn/content/images/New_icon_animate.gif" style="width:25px">
+MATCH: <img title="New" src="https://finance.vietstock.vn/content/images/New_icon_animate.gif" style="width:25px">
+MATCH: <img src="https://finance.vietstock.vn/content/images/dark-home.svg" width="15" alt="Home">
+MATCH: <img src="https://finance.vietstock.vn/content/images/menu-all-dark.svg" width="24" alt="menu-all-dark">
+MATCH: <img src="https://finance.vietstock.vn/content/images/searchBlack.svg" alt="searchBlack">
+MATCH: <img title="New" src="https://finance.vietstock.vn/content/images/New_icon_animate.gif" style="width:20px">
+MATCH: <img src="https://finance.vietstock.vn/content/images/iconGift01.svg" width="17" height="17" alt="iconGift">
+MATCH: <img src="https://finance.vietstock.vn/content/images/iconGift02.svg" width="17" height="17" alt="iconGift">
+MATCH: <img src="https://finance.vietstock.vn/content/images/iconGift03.svg" width="17" height="17" alt="iconGift">
+MATCH: <img src="https://finance.vietstock.vn/content/images/iconGift04.svg" width="17" height="17" alt="iconGift">
+MATCH: <img src="https://finance.vietstock.vn/content/images/iconGift01.svg" width="17" height="17" alt="iconGift">
+MATCH: <img src="https://finance.vietstock.vn/content/images/iconGift02.svg" width="17" height="17" alt="iconGift">
+MATCH: <img src="https://finance.vietstock.vn/content/images/iconGift03.svg" width="17" height="17" alt="iconGift">
+MATCH: <img src="https://finance.vietstock.vn/content/images/iconGift04.svg" width="17" height="17" alt="iconGift">
+MATCH: <img src="https://finance.vietstock.vn/content/images/iconGift01.svg" width="17" height="17" alt="iconGift">
+MATCH: <img src="https://image.vietstock.vn/common/logoVSTF.svg?4" width="130" alt="finance.vietstock.vn">
+MATCH: <img id="popup-menu-close" src="https://finance.vietstock.vn/content/images/close.svg" width="20" alt="close">
+MATCH: <img class="imgUser" src="https://finance.vietstock.vn/content/images/user.svg" width="15" alt="user">
+MATCH: <img src="https://finance.vietstock.vn/content/images/icons/icon-light-mode.svg">
+MATCH: <img src="https://image.vietstock.vn/common/english.png" width="20" alt="english flag">
+MATCH: <img title="New" src="https://finance.vietstock.vn/content/images/New_icon_animate.gif" style="width:20px">
+MATCH: <img src="https://finance.vietstock.vn/content/images/iconArrow.svg" width="10" alt="iconArrow">
+MATCH: <img src="https://finance.vietstock.vn/content/images/iconArrow.svg" width="10" alt="iconArrow">
+MATCH: <img src="https://finance.vietstock.vn/content/images/iconArrow.svg" width="10" alt="iconArrow">
+MATCH: <img src="https://finance.vietstock.vn/content/images/iconArrow.svg" width="10" alt="iconArrow">
+MATCH: <img src="https://finance.vietstock.vn/content/images/iconArrow.svg" width="10" alt="iconArrow">
+MATCH: <img src="https://finance.vietstock.vn/content/images/iconArrow.svg" width="10" alt="iconArrow">
+MATCH: <img src="https://finance.vietstock.vn/content/images/NCTKicon.svg">
+MATCH: <img src="https://finance.vietstock.vn/content/images/huong-dan-su-dung.svg" width="13" alt="Hướng dẫn sử dụng" style="margin-bottom:2px">
+MATCH: <img id="img-warning-request-upgrade-account" src="https://finance.vietstock.vn/content/images/Warning_icon..png">
+MATCH: <img class="heatmap-toolbar__button-img" src="https://finance.vietstock.vn/content/images/heatmap/half-left-arrow.svg">
+MATCH: <img class="heatmap-toolbar__button-img-blue" src="https://finance.vietstock.vn/content/images/heatmap/half-left-arrow--active.svg">
+MATCH: <img class="heatmap-toolbar__button-img" src="https://finance.vietstock.vn/content/images/heatmap/tat-ca-san-new.svg">
+MATCH: <img class="heatmap-toolbar__button-img-blue" src="https://finance.vietstock.vn/content/images/heatmap/tat-ca-san-new--active.svg">
+MATCH: <img class="heatmap-toolbar__button-img" src="https://finance.vietstock.vn/content/images/heatmap/filter.svg">
+MATCH: <img class="heatmap-toolbar__button-img-blue" src="https://finance.vietstock.vn/content/images/heatmap/filter--active.svg">
+MATCH: <img class="heatmap-toolbar__button-img" src="https://finance.vietstock.vn/content/images/heatmap/group-by.svg">
+MATCH: <img class="heatmap-toolbar__button-img-blue" src="https://finance.vietstock.vn/content/images/heatmap/group-by--active.svg">
+MATCH: <img class="heatmap-toolbar__button-img" src="https://finance.vietstock.vn/content/images/heatmap/detail-by.svg">
+MATCH: <img class="heatmap-toolbar__button-img-blue" src="https://finance.vietstock.vn/content/images/heatmap/detail-by--active.svg">
+MATCH: <img class="heatmap-toolbar__button-img" src="https://finance.vietstock.vn/content/images/heatmap/detail-by.svg">
+MATCH: <img class="heatmap-toolbar__button-img-blue" src="https://finance.vietstock.vn/content/images/heatmap/detail-by--active.svg">
+MATCH: <img class="heatmap-toolbar__button-img" src="https://finance.vietstock.vn/content/images/heatmap/detail-by.svg">
+MATCH: <img class="heatmap-toolbar__button-img-blue" src="https://finance.vietstock.vn/content/images/heatmap/detail-by--active.svg">
+MATCH: <img class="heatmap-toolbar__button-img" src="https://finance.vietstock.vn/content/images/heatmap/detail-by.svg">
+MATCH: <img class="heatmap-toolbar__button-img-blue" src="https://finance.vietstock.vn/content/images/heatmap/detail-by--active.svg">
+MATCH: <img class="heatmap-toolbar__button-img" src="https://finance.vietstock.vn/content/images/heatmap/size-by.svg">
+MATCH: <img class="heatmap-toolbar__button-img-blue" src="https://finance.vietstock.vn/content/images/heatmap/size-by--active.svg">
+MATCH: <img src="https://finance.vietstock.vn/content/images/heatmap/lock-icon.svg" width="8">
+MATCH: <img src="https://finance.vietstock.vn/content/images/heatmap/lock-icon.svg" width="8">
+MATCH: <img src="https://finance.vietstock.vn/content/images/heatmap/lock-icon.svg" width="8">
+MATCH: <img src="https://finance.vietstock.vn/content/images/heatmap/lock-icon.svg" width="8">
+MATCH: <img src="https://finance.vietstock.vn/content/images/heatmap/lock-icon.svg" width="8">
+MATCH: <img src="https://finance.vietstock.vn/content/images/heatmap/lock-icon.svg" width="8">
+MATCH: <img src="https://finance.vietstock.vn/content/images/heatmap/lock-icon.svg" width="8">
+MATCH: <img src="https://finance.vietstock.vn/content/images/heatmap/lock-icon.svg" width="8">
+MATCH: <img src="https://finance.vietstock.vn/content/images/heatmap/lock-icon.svg" width="8">
+MATCH: <img src="https://finance.vietstock.vn/content/images/heatmap/lock-icon.svg" width="8">
+MATCH: <img src="https://finance.vietstock.vn/content/images/heatmap/lock-icon.svg" width="8">
+MATCH: <img src="https://finance.vietstock.vn/content/images/heatmap/lock-icon.svg" width="8">
+MATCH: <img src="https://finance.vietstock.vn/content/images/heatmap/lock-icon.svg" width="8">
+MATCH: <img src="https://finance.vietstock.vn/content/images/heatmap/lock-icon.svg" width="8">
+MATCH: <img src="https://finance.vietstock.vn/content/images/heatmap/lock-icon.svg" width="8">
+MATCH: <img src="https://finance.vietstock.vn/content/images/heatmap/lock-icon.svg" width="8">
+MATCH: <img src="https://finance.vietstock.vn/content/images/heatmap/lock-icon.svg" width="8">
+MATCH: <img src="https://finance.vietstock.vn/content/images/heatmap/lock-icon.svg" width="8">
+MATCH: <img src="https://finance.vietstock.vn/content/images/heatmap/lock-icon.svg" width="8">
+MATCH: <img src="https://finance.vietstock.vn/content/images/heatmap/lock-icon.svg" width="8">
+MATCH: <img src="https://finance.vietstock.vn/content/images/heatmap/lock-icon.svg" width="8">
+MATCH: <img src="https://finance.vietstock.vn/content/images/heatmap/lock-icon.svg" width="8">
+MATCH: <img src="https://finance.vietstock.vn/content/images/heatmap/lock-icon.svg" width="8">
+MATCH: <img src="https://finance.vietstock.vn/content/images/heatmap/lock-icon.svg" width="8">
+MATCH: <img src="https://finance.vietstock.vn/content/images/heatmap/lock-icon.svg" width="8">
+MATCH: <img src="https://finance.vietstock.vn/content/images/heatmap/lock-icon.svg" width="8">
+MATCH: <img src="https://finance.vietstock.vn/content/images/heatmap/lock-icon.svg" width="8">
+MATCH: <img src="https://finance.vietstock.vn/content/images/heatmap/lock-icon.svg" width="8">
+MATCH: <img src="https://finance.vietstock.vn/content/images/heatmap/lock-icon.svg" width="8">
+MATCH: <img src="https://finance.vietstock.vn/content/images/heatmap/lock-icon.svg" width="8">
+MATCH: <img src="https://finance.vietstock.vn/content/images/heatmap/lock-icon.svg" width="8">
+MATCH: <img src="https://finance.vietstock.vn/content/images/heatmap/lock-icon.svg" width="8">
+MATCH: <img src="https://finance.vietstock.vn/content/images/heatmap/lock-icon.svg" width="8">
+MATCH: <img src="https://finance.vietstock.vn/content/images/heatmap/lock-icon.svg" width="8">
+MATCH: <img src="https://finance.vietstock.vn/content/images/heatmap/lock-icon.svg" width="8">
+MATCH: <img src="https://finance.vietstock.vn/content/images/heatmap/lock-icon.svg" width="8">
+MATCH: <img src="https://finance.vietstock.vn/content/images/heatmap/lock-icon.svg" width="8">
+MATCH: <img src="https://finance.vietstock.vn/content/images/heatmap/lock-icon.svg" width="8">
+MATCH: <img src="https://finance.vietstock.vn/content/images/heatmap/lock-icon.svg" width="8">
+MATCH: <img src="https://finance.vietstock.vn/content/images/heatmap/lock-icon.svg" width="8">
+MATCH: <img src="https://finance.vietstock.vn/content/images/heatmap/lock-icon.svg" width="8">
+MATCH: <img src="https://finance.vietstock.vn/content/images/heatmap/lock-icon.svg" width="8">
+MATCH: <img src="https://finance.vietstock.vn/content/images/heatmap/lock-icon.svg" width="8">
+MATCH: <img src="https://finance.vietstock.vn/content/images/heatmap/lock-icon.svg" width="8">
+MATCH: <img src="https://finance.vietstock.vn/content/images/heatmap/lock-icon.svg" width="8">
+MATCH: <img class="heatmap-toolbar__button-img" src="https://finance.vietstock.vn/content/images/heatmap/shape.svg">
+MATCH: <img class="heatmap-toolbar__button-img-blue" src="https://finance.vietstock.vn/content/images/heatmap/shape--active.svg">
+MATCH: <img class="heatmap-toolbar__button-img" src="https://finance.vietstock.vn/content/images/heatmap/pick-color.svg">
+MATCH: <img class="heatmap-toolbar__button-img-blue" src="https://finance.vietstock.vn/content/images/heatmap/pick-color.svg">
+MATCH: <img class="heatmap-toolbar__button-img" src="https://finance.vietstock.vn/content/images/heatmap/save.svg">
+MATCH: <img class="heatmap-toolbar__button-img-blue" src="https://finance.vietstock.vn/content/images/heatmap/save--active.svg">
+MATCH: <img class="heatmap-toolbar__button-img" src="https://finance.vietstock.vn/content/images/heatmap/share.svg">
+MATCH: <img class="heatmap-toolbar__button-img-blue" src="https://finance.vietstock.vn/content/images/heatmap/share--active.svg">
+MATCH: <img class="heatmap-dropdown__item-img" src="https://finance.vietstock.vn/content/images/heatmap/link-copy.png">
+MATCH: <img class="heatmap-dropdown__item-img" src="https://finance.vietstock.vn/content/images/heatmap/facebook.png">
+MATCH: <img class="heatmap-dropdown__item-img" src="https://finance.vietstock.vn/content/images/heatmap/download-03.svg">
+MATCH: <img class="heatmap-dropdown__item-img" src="https://finance.vietstock.vn/content/images/heatmap/download-03.svg">
+MATCH: <img class="heatmap-dropdown__item-img" src="https://finance.vietstock.vn/content/images/heatmap/download-03.svg">
+MATCH: <img class="heatmap-toolbar__button-img" src="https://finance.vietstock.vn/content/images/heatmap/fullscreen.svg">
+MATCH: <img class="heatmap-toolbar__button-img-blue" src="https://finance.vietstock.vn/content/images/heatmap/fullscreen--active.svg">
+MATCH: <img class="heatmap-logo" src="https://finance.vietstock.vn/content/images/Vietstock_logo_100x100.png" title="Vietstock">
+MATCH: <img src="https://image.vietstock.vn/common/loading.gif" alt="loading">
+MATCH: <img class="markets-section__nav-img" src="https://finance.vietstock.vn/content/images/heatmap/share.svg">
+MATCH: <img class="markets-section__nav-img-hover" src="https://finance.vietstock.vn/content/images/heatmap/share--active.svg">
+MATCH: <img class="markets-section__dropdown-item-img" src="https://finance.vietstock.vn/content/images/heatmap/link-copy.png">
+MATCH: <img class="markets-section__dropdown-item-img" src="https://finance.vietstock.vn/content/images/heatmap/facebook.png">
+MATCH: <img class="markets-section__nav-img" src="https://finance.vietstock.vn/content/images/heatmap/fullscreen.svg">
+MATCH: <img class="markets-section__nav-img-hover" src="https://finance.vietstock.vn/content/images/heatmap/fullscreen--active.svg">
+MATCH: <img src="https://finance.vietstock.vn/content/images/stock-chart-icon.svg" class="general-markets__chart-expand-img">
+MATCH: <img src="https://finance.vietstock.vn/content/images/Vietstock_logo_80x80.png">
+MATCH: <img class="markets-section__nav-img" src="https://finance.vietstock.vn/content/images/heatmap/share.svg">
+MATCH: <img class="markets-section__nav-img-hover" src="https://finance.vietstock.vn/content/images/heatmap/share--active.svg">
+MATCH: <img class="markets-section__dropdown-item-img" src="https://finance.vietstock.vn/content/images/heatmap/link-copy.png">
+MATCH: <img class="markets-section__dropdown-item-img" src="https://finance.vietstock.vn/content/images/heatmap/facebook.png">
+MATCH: <img class="markets-section__nav-img" src="https://finance.vietstock.vn/content/images/heatmap/fullscreen.svg">
+MATCH: <img class="markets-section__nav-img-hover" src="https://finance.vietstock.vn/content/images/heatmap/fullscreen--active.svg">
+MATCH: <img data-lazy="//chart.vietstock.vn/finance/FinanceMain/Vn-Index-realtime-210x160.png?rnd=1491992707061" alt="VN markets" src="">
+MATCH: <img data-lazy="https://chart.vietstock.vn/finance/FinanceMain/HNX-Index-realtime-210x160.png?rnd=1491992707061" alt="VN markets" src="">
+MATCH: <img data-lazy="https://chart.vietstock.vn/finance/FinanceMain/VN30-Index-realtime-210x160.png?rnd=1491992707061" alt="VN markets" src="">
+MATCH: <img data-lazy="https://chart.vietstock.vn/finance/FinanceMain/Upcom-Index-realtime-210x160.png?rnd=1491992707061" alt="VN markets" src="">
+MATCH: <img data-lazy="https://chart.vietstock.vn/finance/FinanceMain/VS100-realtime-210x160.png?rnd=1491992707061" alt="VN markets" src="">
+MATCH: <img data-lazy="https://chart.vietstock.vn/finance/FinanceMain/vS-Large-Cap-realtime-210x160.png?rnd=1491992707061" alt="VN markets" src="">
+MATCH: <img data-lazy="https://chart.vietstock.vn/finance/FinanceMain/VS-Mid-Cap-realtime-210x160.png?rnd=1491992707061" alt="VN markets" src="">
+MATCH: <img data-lazy="https://chart.vietstock.vn/finance/FinanceMain/VS-Small-Cap-realtime-210x160.png?rnd=1491992707061" alt="VN markets" src="">
+MATCH: <img data-lazy="https://chart.vietstock.vn/finance/FinanceMain/VS-Micro-Cap-realtime-210x160.png?rnd=1491992707061" alt="VN markets" src="">
+MATCH: <img data-lazy="https://chart.vietstock.vn/finance/FinanceMain/Compare1D-230x160.png?rnd=1491992707061" alt="VN markets" src="">
+MATCH: <img data-lazy="//chart.vietstock.vn/finance/FinanceMain/DJI-Realtime-210x160.png?rnd=1491992707061" alt="USA markets" src="">
+MATCH: <img data-lazy="https://chart.vietstock.vn/finance/FinanceMain/Nasdaq-realtime-210x160.png?rnd=1491992707061" alt="USA markets" src="">
+MATCH: <img data-lazy="https://chart.vietstock.vn/finance/FinanceMain/SP500-realtime-210x160.png?rnd=1491992707061" alt="USA markets" src="">
+MATCH: <img data-lazy="https://chart.vietstock.vn/finance/FinanceMain/ZD-realtime-210x160.png?rnd=1491992707061" alt="USA markets" src="">
+MATCH: <img data-lazy="https://chart.vietstock.vn/finance/FinanceMain/ND-realtime-210x160.png?rnd=1491992707061" alt="USA markets" src="">
+MATCH: <img data-lazy="https://chart.vietstock.vn/finance/FinanceMain/SP-realtime-210x160.png?rnd=1491992707061" alt="USA markets" src="">
+MATCH: <img data-lazy="//chart.vietstock.vn/finance/FinanceMain/GDAXI-realtime-210x160.png?rnd=1491992707061" alt="EU markets" src="">
+MATCH: <img data-lazy="https://chart.vietstock.vn/finance/FinanceMain/FTSE-realtime-210x160.png?rnd=1491992707061" alt="EU markets" src="">
+MATCH: <img data-lazy="https://chart.vietstock.vn/finance/FinanceMain/FCHI-realtime-210x160.png?rnd=1491992707061" alt="EU markets" src="">
+MATCH: <img data-lazy="https://chart.vietstock.vn/finance/FinanceMain/STOXX50-realtime-210x160.png?rnd=1491992707061" alt="EU markets" src="">
+MATCH: <img data-lazy="//chart.vietstock.vn/finance/FinanceMain/HangSeng-realtime-210x160.png?rnd=1491992707061" alt="Asia markets" src="">
+MATCH: <img data-lazy="https://chart.vietstock.vn/finance/FinanceMain/N225-realtime-210x160.png?rnd=1491992707061" alt="Asia markets" src="">
+MATCH: <img data-lazy="https://chart.vietstock.vn/finance/FinanceMain/SS000001-realtime-210x160.png?rnd=1491992707061" alt="Asia markets" src="">
+MATCH: <img data-lazy="https://chart.vietstock.vn/finance/FinanceMain/STI-realtime-210x160.png?rnd=1491992707061" alt="Asia markets" src="">
+MATCH: <img data-lazy="https://chart.vietstock.vn/finance/FinanceMain/AORD-realtime-210x160.png?rnd=1491992707061" alt="Asia markets" src="">
+MATCH: <img class="markets-section-2__nav-img" src="https://finance.vietstock.vn/content/images/heatmap/share.svg">
+MATCH: <img class="markets-section-2__nav-img-hover" src="https://finance.vietstock.vn/content/images/heatmap/share--active.svg">
+MATCH: <img class="markets-section-2__dropdown-item-img" src="https://finance.vietstock.vn/content/images/heatmap/link-copy.png">
+MATCH: <img class="markets-section-2__dropdown-item-img" src="https://finance.vietstock.vn/content/images/heatmap/facebook.png">
+MATCH: <img class="markets-section-2__nav-img" src="https://finance.vietstock.vn/content/images/heatmap/fullscreen.svg">
+MATCH: <img class="markets-section-2__nav-img-hover" src="https://finance.vietstock.vn/content/images/heatmap/fullscreen--active.svg">
+MATCH: <img src="/content/images/Vietstock_logo_80x80.png">
+MATCH: <img src="/content/images/common/arrow-down-icon.svg" style="margin-right: 3px;">
+MATCH: <img class="top-influence__nav-img" src="https://finance.vietstock.vn/content/images/heatmap/share.svg">
+MATCH: <img class="top-influence__nav-img-hover" src="https://finance.vietstock.vn/content/images/heatmap/share--active.svg">
+MATCH: <img class="top-influence__dropdown-item-img" src="https://finance.vietstock.vn/content/images/heatmap/link-copy.png">
+MATCH: <img class="top-influence__dropdown-item-img" src="https://finance.vietstock.vn/content/images/heatmap/facebook.png">
+MATCH: <img class="top-influence__nav-img" src="https://finance.vietstock.vn/content/images/heatmap/fullscreen.svg">
+MATCH: <img class="top-influence__nav-img-hover" src="https://finance.vietstock.vn/content/images/heatmap/fullscreen--active.svg">
+MATCH: <img src="https://finance.vietstock.vn/content/images/Vietstock_logo_80x80.png">
+MATCH: <img src="https://finance.vietstock.vn/content/images/Vietstock_logo_80x80.png">
+MATCH: <img src="https://finance.vietstock.vn/content/images/Vietstock_logo_80x80.png">
+MATCH: <img src="https://finance.vietstock.vn/content/images/Vietstock_logo_80x80.png">
+MATCH: <img src="https://finance.vietstock.vn/content/images/Vietstock_logo_80x80.png">
+MATCH: <img src="https://ox1.vietstock.vn/www/delivery/lg.php?bannerid=1451&campaignid=623&zoneid=287&loc=1&referer=https%3A%2F%2Ffinance.vietstock.vn%2F&cb=075250f1e4" width="0" height="0" alt="" style="width: 0px; height: 0px;">
+MATCH: <img class="foreign__header-img" src="https://finance.vietstock.vn/content/images/heatmap/share.svg">
+MATCH: <img class="foreign__header-img-hover" src="https://finance.vietstock.vn/content/images/heatmap/share--active.svg">
+MATCH: <img class="foreign__dropdown-item-img" src="https://finance.vietstock.vn/content/images/heatmap/link-copy.png">
+MATCH: <img class="foreign__dropdown-item-img" src="https://finance.vietstock.vn/content/images/heatmap/facebook.png">
+MATCH: <img class="foreign__header-img" src="https://finance.vietstock.vn/content/images/heatmap/fullscreen.svg">
+MATCH: <img class="foreign__header-img-hover" src="https://finance.vietstock.vn/content/images/heatmap/fullscreen--active.svg">
+MATCH: <img src="https://finance.vietstock.vn/content/images/Vietstock_logo_80x80.png">
+MATCH: <img src="http://image.vietstock.vn/common/loading.gif" alt="loading">
+MATCH: <img src="http://image.vietstock.vn/common/loading.gif" alt="loading">
+MATCH: <img class="proprietary__header-img" src="https://finance.vietstock.vn/content/images/heatmap/share.svg">
+MATCH: <img class="proprietary__header-img-hover" src="https://finance.vietstock.vn/content/images/heatmap/share--active.svg">
+MATCH: <img class="proprietary__dropdown-item-img" src="https://finance.vietstock.vn/content/images/heatmap/link-copy.png">
+MATCH: <img class="proprietary__dropdown-item-img" src="https://finance.vietstock.vn/content/images/heatmap/facebook.png">
+MATCH: <img class="proprietary__header-img" src="https://finance.vietstock.vn/content/images/heatmap/fullscreen.svg">
+MATCH: <img class="proprietary__header-img-hover" src="https://finance.vietstock.vn/content/images/heatmap/fullscreen--active.svg">
+MATCH: <img src="https://finance.vietstock.vn/content/images/Vietstock_logo_80x80.png">
+MATCH: <img src="https://image.vietstock.vn/common/logoVSTF.svg">
+MATCH: <img width="100%" height="100%" class="js-lazy-load-currency" alt="Vàng" src="/content/images/common/gold.png">
+MATCH: <img class="js-asset-chart" width="135" height="35" alt="image-chart" src="https://chart.vietstock.vn/trendinglarge/SJCGOLD1D.png?ts=1765209587978">
+MATCH: <img width="100%" height="100%" class="js-lazy-load-currency" alt="Dầu thô" src="/content/images/common/crude-oil.png">
+MATCH: <img class="js-asset-chart" width="135" height="35" alt="image-chart" src="https://chart.vietstock.vn/trendinglarge/CL1D.png?ts=1765209587978">
+MATCH: <img width="100%" height="100%" class="js-lazy-load-currency" alt="Đồng" src="/content/images/common/mine.png">
+MATCH: <img class="js-asset-chart" width="135" height="35" alt="image-chart" src="https://chart.vietstock.vn/trendinglarge/LCU1D.png?ts=1765209587978">
+MATCH: <img width="100%" height="100%" class="js-lazy-load-currency" alt="Cà Phê" src="/content/images/common/coffee.png">
+MATCH: <img class="js-asset-chart" width="135" height="35" alt="image-chart" src="https://chart.vietstock.vn/trendinglarge/KC1D.png?ts=1765209587978">
+MATCH: <img width="100%" height="100%" class="js-lazy-load-currency" alt="Gas" src="/content/images/common/gas.png">
+MATCH: <img class="js-asset-chart" width="135" height="35" alt="image-chart" src="https://chart.vietstock.vn/trendinglarge/NG1D.png?ts=1765209587978">
+MATCH: <img width="100%" height="100%" class="js-lazy-load-currency" alt="BTC" src="/content/images/common/bcoin.svg">
+MATCH: <img class="js-asset-chart" width="135" height="35" alt="image-chart" src="https://chart.vietstock.vn/trendinglarge/BTCUSD1D.png?ts=1765209587978">
+MATCH: <img width="100%" height="100%" class="js-lazy-load-currency" alt="SOL" src="/content/images/common/sol.svg">
+MATCH: <img class="js-asset-chart" width="135" height="35" alt="image-chart" src="https://chart.vietstock.vn/trendinglarge/SOLUSD1D.png?ts=1765209587978">
+MATCH: <img width="100%" height="100%" class="js-lazy-load-currency" alt="ADA" src="/content/images/common/ada.svg">
+MATCH: <img class="js-asset-chart" width="135" height="35" alt="image-chart" src="https://chart.vietstock.vn/trendinglarge/ADAUSD1D.png?ts=1765209587978">
+MATCH: <img width="100%" height="100%" class="js-lazy-load-currency" alt="ETH" src="/content/images/common/eth.svg">
+MATCH: <img class="js-asset-chart" width="135" height="35" alt="image-chart" src="https://chart.vietstock.vn/trendinglarge/ETHUSD1D.png?ts=1765209587978">
+MATCH: <img width="100%" height="100%" class="js-lazy-load-currency" alt="XRP" src="/content/images/common/xrp.svg">
+MATCH: <img class="js-asset-chart" width="135" height="35" alt="image-chart" src="https://chart.vietstock.vn/trendinglarge/XRPUSD1D.png?ts=1765209587978">
+MATCH: <img width="100%" height="100%" class="js-lazy-load-currency" alt="USD/VND" src="/content/images/common/usdvnd.svg">
+MATCH: <img class="js-asset-chart" width="135" height="35" alt="image-chart" src="https://chart.vietstock.vn/trendinglarge/USDVND1D.png?ts=1765209587978">
+MATCH: <img width="100%" height="100%" class="js-lazy-load-currency" alt="EUR/VND" src="/content/images/common/eurvnd.svg">
+MATCH: <img class="js-asset-chart" width="135" height="35" alt="image-chart" src="https://chart.vietstock.vn/trendinglarge/EURVND1D.png?ts=1765209587978">
+MATCH: <img width="100%" height="100%" class="js-lazy-load-currency" alt="JPY/VND" src="/content/images/common/jpyvnd.svg">
+MATCH: <img class="js-asset-chart" width="135" height="35" alt="image-chart" src="https://chart.vietstock.vn/trendinglarge/JPYVND1D.png?ts=1765209587978">
+MATCH: <img width="100%" height="100%" class="js-lazy-load-currency" alt="GBP/VND" src="/content/images/common/gbpvnd.svg">
+MATCH: <img class="js-asset-chart" width="135" height="35" alt="image-chart" src="https://chart.vietstock.vn/trendinglarge/GBPVND1D.png?ts=1765209587978">
+MATCH: <img width="100%" height="100%" class="js-lazy-load-currency" alt="EUR/USD" src="/content/images/common/eurusd.svg">
+MATCH: <img class="js-asset-chart" width="135" height="35" alt="image-chart" src="https://chart.vietstock.vn/trendinglarge/EURUSD1D.png?ts=1765209587978">
+MATCH: <img width="100%" height="100%" class="js-lazy-load-currency" alt="USD/JPY" src="/content/images/common/usdjpy.svg">
+MATCH: <img class="js-asset-chart" width="135" height="35" alt="image-chart" src="https://chart.vietstock.vn/trendinglarge/USDJPY1D.png?ts=1765209587978">
+MATCH: <img width="100%" height="100%" class="js-lazy-load-currency" alt="US Dollar Index" src="/content/images/common/usd.svg">
+MATCH: <img class="js-asset-chart" width="135" height="35" alt="image-chart" src="https://chart.vietstock.vn/trendinglarge/DXU11D.png?ts=1765209587978">
+MATCH: <img id="img-warning-request-upgrade-account" src="https://finance.vietstock.vn/content/images/Warning_icon..png">
+MATCH: <img src="https://image.vietstock.vn/common/vietstock.svg?4" width="182" alt="vietstock.vn">
+MATCH: <img src="https://ox1.vietstock.vn/www/delivery/lg.php?bannerid=1334&campaignid=614&zoneid=219&loc=1&referer=https%3A%2F%2Ffinance.vietstock.vn%2F&cb=0428a7a013" width="0" height="0" alt="" style="width: 0px; height: 0px;">
+MATCH: <img src="https://finance.vietstock.vn/content/images/icons/IconVietstockMate.svg?1" alt="Vietstock Mate">
+MATCH: <img src="https://finance.vietstock.vn/content/images/close.svg" width="17" alt="close">
+MATCH: <img class="xs-margin-left-10 pull-left" alt="Vietstock" src="https://image.vietstock.vn/common/logoVSTF.svg?4" width="150">
+MATCH: <img title="New" src="https://finance.vietstock.vn/content/images/New_icon_animate.gif" style="width:25px">
+MATCH: <img title="New" src="https://finance.vietstock.vn/content/images/New_icon_animate.gif" style="width:25px">
+MATCH: <img title="New" src="https://finance.vietstock.vn/content/images/New_icon_animate.gif" style="width:25px">
+MATCH: <img title="New" src="https://finance.vietstock.vn/content/images/New_icon_animate.gif" style="width:25px">
+MATCH: <img src="https://finance.vietstock.vn/content/images/sector/energy.svg" height="28">
+MATCH: <img src="https://finance.vietstock.vn/content/images/sector/materials.svg" height="28">
+MATCH: <img src="https://finance.vietstock.vn/content/images/sector/industrials.svg" height="28">
+MATCH: <img src="https://finance.vietstock.vn/content/images/sector/consumer-discretionary.svg" height="28">
+MATCH: <img src="https://finance.vietstock.vn/content/images/sector/consumer-staples.svg" height="28">
+MATCH: <img src="https://finance.vietstock.vn/content/images/sector/healthcare.svg" height="28">
+MATCH: <img src="https://finance.vietstock.vn/content/images/sector/financials.svg" height="28">
+MATCH: <img src="https://finance.vietstock.vn/content/images/sector/it.svg" height="28">
+MATCH: <img src="https://finance.vietstock.vn/content/images/sector/communication-services.svg" height="28">
+MATCH: <img src="https://finance.vietstock.vn/content/images/sector/utilities.svg" height="28">
+MATCH: <img src="https://finance.vietstock.vn/content/images/sector/real-estate.svg" height="28">
