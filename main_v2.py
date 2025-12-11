@@ -214,29 +214,49 @@ def clean_markdown(text):
         r'!\[search\]',            # Search icons
         r'!\[user\]',              # User login icons
         r'!\[.*\]\(.*icon.*\.svg\)', # Generic icon handling
+        r'!\[.*Trend\]',           # Trend charts (VNIndexTrend etc)
+        r'!\[close\]',             # Close icons
+        r'!\[iconArrow\]',         # Arrow icons
+        r'!\[searchBlack\]',       # Search icons
         r'Bản quyền thuộc về Vietstock', # Footer
         r'Chat Bot AI - CHỨNG SĨ', # Chatbot ads
-        r'^!\[.*\]\(.*\)$',        # Standalone images (aggressive, use carefully)
+        r'^!\[.*\]\(.*\)$',        # Standalone images (aggressive)
+        r'^\s*-\s*\d{2}:\d{2}',    # News ticker timestamps (e.g. "- 08:30")
+        r'^Tin mới nhất$',
+        r'^Cập nhật$'
     ]
     
+    # Specific menu headers to skip
+    skip_headers = {
+        'VĨ MÔ', 'NGÀNH', 'DOANH NGHIỆP', 'CỔ PHIẾU', 'PHÁI SINH', 
+        'TRÁI PHIẾU', 'CÔNG CỤ ĐẦU TƯ', 'XUẤT DỮ LIỆU', 'TIN MỚI',
+        'Tổng hợp doanh nghiệp', 'Báo cáo tài chính', 'Báo cáo tài chính ngành'
+    }
+
     for line in lines:
         should_skip = False
+        stripped = line.strip()
+        
         # Check specific noisy patterns
         for pattern in skip_patterns:
             if re.search(pattern, line):
                 should_skip = True
                 break
         
-        # Check for menu links block (heuristic: line is just a link)
-        # e.g. "- [Text](url) |"
-        if line.strip().startswith("- [") and ("](http" in line) and ("|" in line or len(line) < 50):
-             # Likely a nav link like "- [Home](url)" or "- [Link](url) |"
-             # Be careful not to kill list items in article. 
-             # Usually nav links are short.
-             pass # I will skip filtering this for now to avoid false positives on real lists
-                  # unless standard menus are very obvious.
-                  # The user mentioned [menu bar] which is an image.
+        # Check for menu headers
+        if stripped in skip_headers:
+            should_skip = True
 
+        # Check for menu links block (heuristic: line is just a link)
+        # e.g. "- [Text](url) |" OR "[Text](url)"
+        # This removes lines that are ONLY a link (or link + separator)
+        # Regex: Start with optional dash, then [text](url), optional |, end
+        # Be careful: this might remove valid list items if they only contain a link. 
+        # But for this site, valid content is usually tables or text paragraphs.
+        if re.match(r'^\s*(- )?\[.*?\]\(http.*?\)\s*(\|)?\s*$', line):
+             if len(line) < 200: # Assuming menu links are short
+                 should_skip = True
+                 
         if not should_skip:
             cleaned_lines.append(line)
             
@@ -261,7 +281,11 @@ def step_3_4_extraction_output(app, links, history_set):
                 'formats': ['markdown'],
                 'only_main_content': True,
                 'exclude_tags': ['nav', 'header', 'footer', 'aside', '.banner', '.ads', '#menu', '.box_search', '.quick-link'],
-                'wait_for': 2000  # Wait additional 2s for dynamic content
+                'wait_for': 5000,           # Increased to 5s
+                # Attempt to scroll to trigger lazy loading
+                'actions': [
+                    {'type': 'scroll', 'direction': 'down', 'distance': 1500}
+                ]
             }
             scrape_result = app.scrape(link, **scrape_kwargs) 
             
