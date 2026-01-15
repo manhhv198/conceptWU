@@ -1,0 +1,62 @@
+name: Deploy VNIndex Analyzer to Cloud Run
+
+on:
+  push:
+    branches:
+      - master
+    paths:
+      - 'VNINDEX SUMM/**'
+      - '.github/workflows/deploy-vnindex.yml'
+
+env:
+  PROJECT_ID: ${{ secrets.GCP_PROJECT_ID }}
+  REGION: asia-southeast1
+  REPO_NAME: vnindex-repo
+  IMAGE_NAME: vnindex-analyzer-job
+  JOB_NAME: vnindex-analyzer-job
+  WORK_DIR: 'VNINDEX SUMM'
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: 'read'
+      id-token: 'write'
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Google Auth
+        id: auth
+        uses: google-github-actions/auth@v2
+        with:
+          workload_identity_provider: 'projects/1004249798224/locations/global/workloadIdentityPools/vnindex-pool/providers/vnindex-provider'
+          service_account: 'github-deployer@serverless-cloud-runm.iam.gserviceaccount.com'
+
+      - name: Set up Cloud SDK
+        uses: google-github-actions/setup-gcloud@v2
+
+      - name: Configure Docker for Artifact Registry
+        run: |
+          gcloud auth configure-docker ${{ env.REGION }}-docker.pkg.dev
+
+      - name: Build and Push Docker Image
+        run: |
+          cd "${{ env.WORK_DIR }}"
+          # Use GitHub SHA for versioning
+          TAG="${{ env.REGION }}-docker.pkg.dev/${{ env.PROJECT_ID }}/${{ env.REPO_NAME }}/${{ env.IMAGE_NAME }}:${{ github.sha }}"
+          LATEST="${{ env.REGION }}-docker.pkg.dev/${{ env.PROJECT_ID }}/${{ env.REPO_NAME }}/${{ env.IMAGE_NAME }}:latest"
+          
+          docker build -t $TAG .
+          docker tag $TAG $LATEST
+          
+          docker push $TAG
+          docker push $LATEST
+
+      - name: Update Cloud Run Job
+        run: |
+          gcloud run jobs update ${{ env.JOB_NAME }} \
+            --image ${{ env.REGION }}-docker.pkg.dev/${{ env.PROJECT_ID }}/${{ env.REPO_NAME }}/${{ env.IMAGE_NAME }}:${{ github.sha }} \
+            --region ${{ env.REGION }} \
+            --set-env-vars OUTPUT_DIR=/tmp
