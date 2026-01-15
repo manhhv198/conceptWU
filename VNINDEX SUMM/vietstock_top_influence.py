@@ -9,7 +9,7 @@ from playwright.sync_api import sync_playwright
 sys.stdout.reconfigure(encoding='utf-8')
 
 def get_current_timestamp():
-    now = datetime.datetime.now()
+    now = datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=7)))
     date_str = now.strftime("%Y%m%d")
     time_str = now.strftime("%H%M")
     return date_str, time_str, now

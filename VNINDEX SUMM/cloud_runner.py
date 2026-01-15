@@ -2,6 +2,7 @@ import os
 import subprocess
 import sys
 import glob
+import re
 from datetime import datetime
 from google.cloud import storage
 
@@ -31,15 +32,14 @@ def upload_to_gcs(local_path, destination_blob_name):
         storage_client = storage.Client()
         bucket = storage_client.bucket(BUCKET_NAME)
         blob = bucket.blob(destination_blob_name)
-        blob.upload_from_filename(local_path)
+        # Explicitly set UTF-8 content type to fix browser rendering issues
+        blob.upload_from_filename(local_path, content_type='text/markdown; charset=utf-8')
         print(f"[Cloud] Uploaded {local_path} to gs://{BUCKET_NAME}/{destination_blob_name}")
     except Exception as e:
         print(f"[Error] Failed to upload {local_path}: {e}")
 
 def run_scripts():
     print(f"=== CLOUD RUNNER START: {datetime.now()} ===")
-    
-    # Ensure dependencies are available (Playwright browsers should be in Docker)
     
     current_dir = os.getcwd()
     print(f"Working Directory: {current_dir}")
@@ -107,11 +107,13 @@ def run_scripts():
         # 1. Archive Path: dailyVnindexdata/YYYY/MM/DD/filename
         archive_path = f"{base_folder}/{year_str}/{month_str}/{day_str}/{file_name}"
         
-        # 2. Latest Path: dailyVnindexdata/latest/filename
-        # Logic: If we want a fixed name 'current_news.md' we would rename it.
-        # But since we have multiple different reports, we will keep the filename 
-        # but ensure 'latest' folder only has the most recent version.
-        latest_path = f"{base_folder}/latest/{file_name}"
+        # 2. Latest Path: dailyVnindexdata/latest/filename_without_timestamp
+        # Regex to remove datetime pattern (e.g., _0415 or _20260115) from the end of filename
+        # Pattern: look for _\d{4}.md or _\d{8}.md at the end
+        clean_name = re.sub(r'_\d{4}\.md$', '.md', file_name) 
+        clean_name = re.sub(r'_\d{8}\.md$', '.md', clean_name)
+        
+        latest_path = f"{base_folder}/latest/{clean_name}"
         
         # Upload to Archive
         upload_to_gcs(local_file, archive_path)
