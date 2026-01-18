@@ -2,7 +2,7 @@
 import os
 import sys
 import time
-from datetime import datetime
+from datetime import datetime, timedelta, timezone
 from playwright.sync_api import sync_playwright
 
 # --- Configuration ---
@@ -128,7 +128,7 @@ def parse_tradingview_technicals(page):
     return data
 
 def format_technicals_report(data):
-    now = datetime.now()
+    now = datetime.now(timezone(timedelta(hours=7)))
     md = [f"# TradingView Technical Analysis - VNINDEX - {now.strftime('%Y-%m-%d %H:%M:%S')}\n"]
     md.append(f"Source: {URL}\n")
     md.append("Timeframe: 1 Day\n\n")
@@ -173,7 +173,7 @@ def main():
                 report_content = format_technicals_report(data)
                 
                 # Save to file
-                now = datetime.now()
+                now = datetime.now(timezone(timedelta(hours=7)))
                 date_dir = now.strftime("%Y%m%d")
                 full_dir = os.path.join(OUTPUT_DIR, date_dir)
                 ensure_directory_exists(full_dir)

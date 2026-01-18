@@ -23,7 +23,7 @@ def ensure_directory(date_str):
 
 def save_markdown(content, date_str, time_str):
     folder = ensure_directory(date_str)
-    filename = os.path.join(folder, f"mktsumary{time_str}.md")
+    filename = os.path.join(folder, f"mktsumary_{time_str}.md")
     with open(filename, "w", encoding="utf-8") as f:
         f.write(content)
     print(f"Saved summary to {filename}")
