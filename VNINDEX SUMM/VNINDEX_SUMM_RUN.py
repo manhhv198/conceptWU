@@ -13,7 +13,8 @@ SCRIPTS = [
     "vietstock_proprietary_trading.py",
     "vietstock_sector_data.py",
     "tradingview_vnindex_technicals.py",
-    "rss_news_aggregator.py"
+    "rss_news_aggregator.py",
+    "morning_news_generator.py"
 ]
 
 def main():

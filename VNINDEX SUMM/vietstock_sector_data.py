@@ -2,7 +2,7 @@
 import os
 import sys
 import time
-from datetime import datetime
+import datetime
 from playwright.sync_api import sync_playwright
 
 # --- Configuration ---
@@ -117,7 +117,7 @@ def parse_sector_data(page):
     return data
 
 def format_report(data):
-    now = datetime.now()
+    now = datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=7)))
     md = [f"# Sector Data (Dữ liệu Ngành cấp 1) - {now.strftime('%Y-%m-%d %H:%M:%S')}\n"]
     md.append(f"Source: {URL}\n\n")
     
@@ -179,7 +179,7 @@ def main():
                 report_content = format_report(data)
                 
                 # Save to file
-                now = datetime.now()
+                now = datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=7)))
                 date_dir = now.strftime("%Y%m%d")
                 full_dir = os.path.join(OUTPUT_DIR, date_dir)
                 ensure_directory_exists(full_dir)
